@@ -32,10 +32,18 @@
 
 		 <p>&nbsp;</p>
 
-		 <?php
-		 $lipsum = new joshtronic\LoremIpsum();
-		 echo $lipsum->paragraphs($paragNum, 'p');
-		 ?>
+		 @if (($paragNum) > 0 && ($paragNum) <10)
+		 	<?php
+	 
+			 $lipsum = new joshtronic\LoremIpsum();
+			 echo $lipsum->paragraphs($paragNum, 'p');
+			  ?>
+
+		 @else 
+		 	<h1> PLEASE GO BACK AND ENTER A NUMBER BETWEEN 1 AND 9 </h1>
+		 @endif
+		 
+		
 
 
 		</br>
