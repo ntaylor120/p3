@@ -12,14 +12,27 @@
 		<div class="jumbotron-sand">
      		<div class="row">
 
-			<h1>Ipsum Lorem Generator</h1>
-			<p>&nbsp;</p>
-			<h4>Uses the Joshtronic php-loremipsum Package </h4>&nbsp;<a class="btn btn-warning btn-lg" role="button" href="https://packagist.org/packages/joshtronic/php-loremipsum">Learn More &raquo;</a></p>
+     		<h1>Ipsum Lorem Generator</h1>
 			<p>&nbsp;</p>
 
+     		<div class="row">  <!--row for the two columns of buttons-->
 
+     		<div class="col-lg-6 pull-left">
+     		<h4>Uses the Joshtronic php-loremipsum Package </h4>&nbsp;<a class="btn btn-warning btn-lg" role="button" href="https://packagist.org/packages/joshtronic/php-loremipsum">Learn More &raquo;</a></h4>
+			</div>
+			<!--close the left hand colum-->
+			
+			<div class="col-lg-6 pull-right">
+			<h4>What is Ipsum Lorem?</h4>&nbsp; <a class="btn btn-warning btn-lg" role="button" href="http://lipsum.com/">Learn More &raquo;</a></h4>
+			</div>
+			<!--close the right hand colum-->
+			
 
-			<p>Please select the number of paragraphs of Ipsum Lorem that you would like:</p></br>
+		</div> <!--close column row-->
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+			<h3>Please select the number of paragraphs of Ipsum Lorem that you would like:</h3></br>
 
 			{{Form::open (array('url' =>'viewIpsum'))}}
 
@@ -35,7 +48,7 @@
 -->
 
 <!-- change this to a selector list for control purposes:-->
-					{{Form::label ('parag', 'Enter the number of paragraphs of Ipsum you want to generate:')}}	
+					{{Form::label ('parag', 'Number of paragraphs :')}}	
 					{{Form::text ('parag') }}
 
 					
@@ -58,7 +71,7 @@
 
 -->
 
-					<p>Limit of 9 paragraphs of Ipsum at a time</p>
+					<h4>Limit of 9 paragraphs of Ipsum at a time</h4>
 
 					</br>
 					</br>

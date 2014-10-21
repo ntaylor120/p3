@@ -32,6 +32,10 @@
 
 		 <p>&nbsp;</p>
 
+		 <div class="col-lg-10 offset-1">
+		 	<div class = "grayBg">
+		 		<div class="row">
+
 		 @if (($paragNum) > 0 && ($paragNum) <10)
 		 	<?php
 	 
@@ -43,8 +47,9 @@
 		 	<h1> PLEASE GO BACK AND ENTER A NUMBER BETWEEN 1 AND 9 </h1>
 		 @endif
 		 
-		
-
+		</div>
+		</div> <!--close the gray background div==>
+	</div> <!--close column -->
 
 		</br>
 

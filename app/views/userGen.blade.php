@@ -39,28 +39,7 @@
 					{{Form::label ('userNum', 'Enter the Number of Users')}}	
 					{{Form::text ('userNum') }}
 
-					</br>
-
-					<h4>Account Options: </h4>
-					<p>Please check any options that you wish to use</p>
-					<!--option:  create email addresses: -->
-
-					{{Form::checkbox ('createEmail', 'yes', false)}}
-					{{Form::label ('createEmail', 'Check if you wish the acct to have an email address.')}}
-					</br>
-
-					<!--option:  create dummy bio: -->
-
-					{{Form::checkbox ('createBio', 'yes', false)}}
-					{{Form::label ('createBio', 'Check if you wish the acct to have a bio.')}}
-					</br>
-
-					<!--option create dummy password: -->	
-
-					{{Form::checkbox ('createPwd', 'yes', false)}}
-					{{Form::label ('createPwd', 'Check if you wish the acct to have a password.')}}
-
-					</br>
+					
 					</br>
 
 					<!-- submit button:  -->

@@ -13,7 +13,7 @@
 
 Route::get('/', function()
 {
-	return View::make('hello');
+	return View::make('main');
 });
 
 Route::get('/main', function()
@@ -49,6 +49,18 @@ Route::get('/viewUser', function()
 {
 
 		return View::make('viewUser');
+});
+
+Route::get('/testing', function() 
+{
+
+		return View::make('testing');
+});
+
+Route::post('viewUser', function()
+{
+	$userNum = Input::get('userNum');
+	return View::make('viewUser')->with('userNum', $userNum);
 });
 
 

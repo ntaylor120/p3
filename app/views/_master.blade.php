@@ -42,9 +42,32 @@
 
 <body>
 
+  
+
 <!-- this is the top jumbotron -->
 
-<div class="container">
+<!--customized navbar designed at http://twitterbootstrap3navbars.w3masters.nl/  -->
+
+  <nav class="navbar navbar-custom" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <h3>Developer's Best Friend</h3>
+    </div>
+
+    
+    
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+    <div class="container">
 
     <div class="jumbotron-sand">
      <div class="row">
@@ -73,28 +96,28 @@
     <div class="jumbotron-sand">
       
           
+          
+          
           @yield('content')  
             
 
           
       </div>
     
-
+</div>
 </div>
 
 
 <footer>
-    <div class="bg-ltGray">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h4>&copy; Nancy Taylor 2014</h4>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer> <!-- /container -->
-
+  <div class="container-fluid">
+    <nav class="navbar navbar-custom navbar-fixed-bottom" role="navigation">
+  <div class="container">
+   <h4>&copy; Nancy Taylor 2014</h4>
+  </div>
+</nav>
+ </div> <!-- /container -->
+                  
+</footer> 
 
 </body>
 
