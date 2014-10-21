@@ -60,7 +60,10 @@ Route::get('/testing', function()
 Route::post('viewUser', function()
 {
 	$userNum = Input::get('userNum');
-	return View::make('viewUser')->with('userNum', $userNum);
+	$createEmail = Input::get('createEmail');
+	$createAddr = Input::get('createAddr');
+	$createBio = Input::get('createBio');
+	return View::make('viewUser')->with('userNum', $userNum)->with('createEmail', $createEmail)->with('createAddr', $createAddr) ->with('createBio', $createBio);
 });
 
 

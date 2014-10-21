@@ -9,12 +9,11 @@
 
 </br>
 
-<h2>
+<p>
 
 <?php
 // require the Faker autoloader
 require_once (base_path().'/vendor/fzaninotto/faker/src/autoload.php');
-// alternatively, use another PSR-0 compliant autoloader (like the Symfony2 ClassLoader for instance)
 
 // use the factory to create a Faker\Generator instance
 $faker = Faker\Factory::create();
@@ -22,32 +21,33 @@ $faker = Faker\Factory::create();
 for ($i=0; $i < $userNum; $i++) {
   echo $faker->name, "\n".'</br>';
 
+//include email address if checked
+
+  if($createEmail){
+    echo '</br>'.$faker->email.'</br>';
+  }
+
+//include mailing address if checked
+
+  if($createAddr){
+  echo '</br>'.$faker->address.'</br>';
+
+  }
+
+//include bio (ipsum lorem bio) if checked
+
+  if($createBio){
+    echo '</br>'.$faker->text.'</br>';
+  }
+
+//put some space between each entry to each entry can be easily identified
+
+  echo '</br>'.'********************'.'</br>';
+  }
+
   
-
-}
-
-// generate data by accessing properties
-
-//echo $faker->name;
-  // 'Lucy Cechtelar';
-//echo $faker->address;
-  // "426 Jordy Lodge
-  // Cartwrightshire, SC 88120-6700"
-
-//echo $faker->email;
-//echo $faker->text;
-  // Sint velit eveniet. Rerum atque repellat voluptatem quia rerum. Numquam excepturi
-  // beatae sint laudantium consequatur. Magni occaecati itaque sint et sit tempore. Nesciunt
-  // amet quidem. Iusto deleniti cum autem ad quia aperiam.
-  // A consectetur quos aliquam. In iste aliquid et aut similique suscipit. Consequatur qui
-  // quaerat iste minus hic expedita. Consequuntur error magni et laboriosam. Aut aspernatur
-  // voluptatem sit aliquam. Dolores voluptatum est.
-  // Aut molestias et maxime. Fugit autem facilis quos vero. Eius quibusdam possimus est.
-  // Ea quaerat et quisquam. Deleniti sunt quam. Adipisci consequatur id in occaecati.
-  // Et sint et. Ut ducimus quod nemo ab voluptatum.
-
 ?>
-</h2>
+</p>
 
 </br>
 <div class = "row">
