@@ -1,25 +1,56 @@
-## Laravel PHP Framework
+# Project 3
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+Nancy Taylor
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.
+CSCI E-15:  Dynamic Web Applications
 
-Laravel aims to make the development process a pleasing one for the developer without sacrificing application functionality. Happy developers make the best code. To this end, we've attempted to combine the very best of what we have seen in other web frameworks, including frameworks implemented in other languages, such as Ruby on Rails, ASP.NET MVC, and Sinatra.
+## Live url
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+[http://p3.nrtainmenttesting.me/]  (http://p3.nrtainmenttesting.me/)
 
-## Official Documentation
 
-Documentation for the entire framework can be found on the [Laravel website](http://laravel.com/docs).
+## Description
 
-### Contributing To Laravel
+The P3 project is a website for project #3 of CSCI E-15: Dynamic Web applications.
 
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
+The purpose of this site is to be a simple tool for developers, generating Ipsum Lorem filler code, and test users.
 
-### License
+## Demo
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+Demo can be viewed by [CLICKING HERE]  (http://screencast.com/t/w0rbKTcHrUlI
+)
+## Details for the teaching team
+
+No login required.
+
+
+
+## PLUGINS/LIBRARIES AND OUTSIDE CODE:
+
+Bootstrap:  [getbootstrap.com] (http://getbootstrap.com)
+
+Template:  [Jumbotron] (http://getbootstrap.com/examples/jumbotron/)
+
+
+Images:  all images used on my site are owned by me.
+
+Other Sources:
+
+
+
+
+
+## OTHER CREDITS
+
+I used an online service for designing a navbar with the color scheme I wanted to match my existing page:  [Twitters' Bootstrap 3 Navbar Generator] (http://twitterbootstrap3navbars.w3masters.nl/)
+
+I used scotch.io's article on [Simple Laravel Layouts Using Blade]  (http://scotch.io/tutorials/simple-laravel-layouts-using-blade) to understand how to use includes and yield to make my view templates cleaner
+
+
+
+
+
+
+
+
+

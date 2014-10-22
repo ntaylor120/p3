@@ -6,6 +6,10 @@
 
 
 @section('content')
+
+
+<!--Explain what this page does, and link to information about the Faker package -->
+
 	<div class=container>
 		<p>&nbsp;</p>
 	
@@ -25,8 +29,12 @@
 					
 				</div><!--close columns -->
 				</div>  <!--close row -->
+
+
 			<p>&nbsp;</p>
 			<p>&nbsp;</p>
+
+<!--Prompt user for the number of users to be generated, and any options -->
 
 
 
@@ -85,6 +93,8 @@
 			<p>&nbsp;</p>
 			<p>&nbsp;</p>
 			<p>&nbsp;</p>
+
+<!--Navigation buttons -->
 
 			<p><a class="btn btn-warning btn-lg" role="button" href="/main">Return to Main Page &raquo;</a></p>
 			</div>
