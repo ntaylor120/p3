@@ -11,45 +11,61 @@
 
 <p>
 
-<?php
-// require the Faker autoloader
-require_once (base_path().'/vendor/fzaninotto/faker/src/autoload.php');
+  <div class="col-lg-10 offset-1">
+      
+        <div class="row">
+          <div class = "grayBg">
+            <div class="container">
 
-// use the factory to create a Faker\Generator instance
-$faker = Faker\Factory::create();
+ @if (($userNum) > 0 && ($userNum) <100)
+    <?php
+    // require the Faker autoloader
+    require_once (base_path().'/vendor/fzaninotto/faker/src/autoload.php');
 
-for ($i=0; $i < $userNum; $i++) {
-  echo $faker->name, "\n".'</br>';
+    // use the factory to create a Faker\Generator instance
+    $faker = Faker\Factory::create();
 
-//include email address if checked
+    for ($i=0; $i < $userNum; $i++) {
+      echo 'Name:  '.$faker->name, "\n".'</br>';
 
-  if($createEmail){
-    echo '</br>'.$faker->email.'</br>';
-  }
+    //include email address if checked
 
-//include mailing address if checked
+      if($createEmail){
+        echo '</br>'.'Email address: '.$faker->email.'</br>';
+      }
 
-  if($createAddr){
-  echo '</br>'.$faker->address.'</br>';
+    //include mailing address if checked
 
-  }
+      if($createAddr){
+      echo '</br>'.'Mailing Address:  '.$faker->address.'</br>';
 
-//include bio (ipsum lorem bio) if checked
+      }
 
-  if($createBio){
-    echo '</br>'.$faker->text.'</br>';
-  }
+    //include bio (ipsum lorem bio) if checked
 
-//put some space between each entry to each entry can be easily identified
+      if($createBio){
+        echo '</br>'.'Bio: '.$faker->text.'</br>';
+      }
 
-  echo '</br>'.'********************'.'</br>';
-  }
+    //put some space between each entry to each entry can be easily identified
 
-  
-?>
+      echo '</br>'.'********************'.'</br>'.'</br>';
+      }
+      ?>
+
+
+ @else 
+      <h3> PLEASE GO BACK AND ENTER A NUMBER BETWEEN 1 AND 99 </h3>
+@endif
+</div> <!--close container -->
+</div><!--close background div-->
+</div> <!--close row div -->
+</div> <!--close column div -->  
 </p>
 
 </br>
+<p>&nbsp;</p>
+<div class="container">
 <div class = "row">
 
 <div class= "col-lg-3" pull-left>
@@ -58,6 +74,7 @@ for ($i=0; $i < $userNum; $i++) {
 
 </div> <!--close col> -->
 
+
 <div class = "col-lg-3" pull-left>
 
 <p><a class="btn btn-warning btn-lg" role="button" href="/main">Back to the Main Page &raquo;</a></p>
@@ -65,7 +82,7 @@ for ($i=0; $i < $userNum; $i++) {
 </div><!--close col> -->
 
 </div>  <!--close row-->
-
+</div> <!--close container>
 
 </div> <!--close row for jumbotron -->
 </div> <!--close jumbotron-->

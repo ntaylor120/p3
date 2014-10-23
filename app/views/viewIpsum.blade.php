@@ -10,6 +10,53 @@
 		<h1>Here is your Ipsum Lorem:</h1>
 		 <p>&nbsp;</p>
 
+
+		 <p>&nbsp;</p>
+
+		 <div class="col-lg-10 offset-1">
+		 	
+		 		<div class="row">
+		 			<div class = "grayBg">
+
+		 @if (($paragNum <0) || ($paragNum >9))
+		 	<h1>Please go back and enter a paragraph number between 1 and 9</h1>
+
+		
+
+			 @elseif ($whatIpsum=='kitten')
+
+				 	<?php
+			 
+					 $lipsum = new joshtronic\KittenIpsum();
+					 echo $lipsum->paragraphs($paragNum, 'p');
+					  ?>
+
+				@elseif ($whatIpsum=='pirate')
+
+				 	<?php
+			 
+					 $lipsum = new joshtronic\PirateIpsum();
+					 echo $lipsum->paragraphs($paragNum, 'p');
+					  ?>
+
+				 @else 
+				 	<?php
+			 
+					 $lipsum = new joshtronic\LoremIpsum();
+					 echo $lipsum->paragraphs($paragNum, 'p');
+					  ?>
+		 @endif
+
+
+		 
+
+		 
+		</div>
+		</div> <!--close the gray background div==>
+	</div> <!--close column -->
+
+		</br>
+
 		 <!--buttons for returning back to Ipsum page or Main page:  -->
 
 			<div class = "row">
@@ -29,29 +76,6 @@
 			</div>  <!--close row-->
 
 		<!--end of button code -->
-
-		 <p>&nbsp;</p>
-
-		 <div class="col-lg-10 offset-1">
-		 	<div class = "grayBg">
-		 		<div class="row">
-
-		 @if (($paragNum) > 0 && ($paragNum) <10)
-		 	<?php
-	 
-			 $lipsum = new joshtronic\LoremIpsum();
-			 echo $lipsum->paragraphs($paragNum, 'p');
-			  ?>
-
-		 @else 
-		 	<h1> PLEASE GO BACK AND ENTER A NUMBER BETWEEN 1 AND 9 </h1>
-		 @endif
-		 
-		</div>
-		</div> <!--close the gray background div==>
-	</div> <!--close column -->
-
-		</br>
 
 
 

@@ -29,7 +29,9 @@ Route::get('/ipsum', function()
 Route::post('viewIpsum', function()
 {
 	$paragNum = Input::get('parag');
-	return View::make('viewIpsum')->with('paragNum', $paragNum);
+	$whatIpsum = Input::get('whatIpsum');
+
+		return View::make('viewIpsum')->with('paragNum', $paragNum) ->with('whatIpsum', $whatIpsum);
 });
 
 

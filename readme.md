@@ -44,7 +44,9 @@ Other Sources:
 
 I used an online service for designing a navbar with the color scheme I wanted to match my existing page:  [Twitters' Bootstrap 3 Navbar Generator] (http://twitterbootstrap3navbars.w3masters.nl/)
 
-I used scotch.io's article on [Simple Laravel Layouts Using Blade]  (http://scotch.io/tutorials/simple-laravel-layouts-using-blade) to understand how to use includes and yield to make my view templates cleaner
+I used scotch.io's article on [Simple Laravel Layouts Using Blade]  (http://scotch.io/tutorials/simple-laravel-layouts-using-blade) to understand how to use includes and yield to make my view templates cleaner.
+
+For pirate words for the pirateIpsum, I used a website of [Pirate Terms and Phrases] (http://reference.yourdictionary.com/resources/pirate-terms-phrases.html)
 
 
 

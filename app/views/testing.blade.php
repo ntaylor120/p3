@@ -1,11 +1,6 @@
-@extends('_newmaster')
+<?php
 
-
-
-
-
-
-@section('content')
-	Hello there!
-
-@stop
+	 
+			  $lipsum = new joshtronic\KittenIpsum();
+			 echo $lipsum->paragraphs(5, 'p');
+			  ?>

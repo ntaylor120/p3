@@ -37,6 +37,10 @@ body {
 	background-repeat:no-repeat
 }
 
+.bgWhite {
+  backgroun-color: #ffffff;
+}
+
 .navbar-custom {
   background-color: #7d705d;
   border-color: #6a5f4f;

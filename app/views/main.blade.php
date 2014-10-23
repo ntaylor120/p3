@@ -6,14 +6,14 @@
 		<div class=row>
 
 			<div class=col-lg-6 pull-left>
-				<h1>Ipsum Lorem Generator</h1>
-				 <p><a class="btn btn-warning btn-lg" role="button" href="/ipsum">Create Ipsum Lorem &raquo;</a></p>
+				<h3>Ipsum Lorem Generator</h3>
+				 <p><a class="btn btn-warning btn-sm" role="button" href="/ipsum">Create Ipsum Lorem &raquo;</a></p>
 
 			</div>
 
 			<div class=col-lg-6 pull-left>
-				<h1>Create a test User</h1>
-				 <p><a class="btn btn-warning btn-lg" role="button" href="/userGen">Create Test User(s) &raquo;</a></p>
+				<h3>Create a test User</h3>
+				 <p><a class="btn btn-warning btn-sm" role="button" href="/userGen">Create Test Users &raquo;</a></p>
 			</div>
 
 
