@@ -17,8 +17,7 @@ The purpose of this site is to be a simple tool for developers, generating Ipsum
 
 ## Demo
 
-Demo can be viewed by [CLICKING HERE]  (http://screencast.com/t/w0rbKTcHrUlI
-)
+Demo can be viewed by [CLICKING HERE]  (http://screencast.com/t/mlG7Jjdxpfq)
 ## Details for the teaching team
 
 No login required.
