@@ -1,3 +1,4 @@
+
 @extends('_viewData')
 
 <!--This page prompts user for the type of ipsum lorem to be generated, and the number of paragraphs
@@ -17,15 +18,17 @@
 
 		     		<div class="row">  
 
-			     		<div class="col-lg-4 pull-left">
-			     	     		<p>Uses the Joshtronic php-loremipsum Package 
-			     					</h4>&nbsp;<a class="btn btn-warning btn-sm" role="button" href="https://packagist.org/packages/joshtronic/php-loremipsum">Learn More &raquo;</a></p>
-						</div><!--close the left hand colum-->
-				
+			     		
 		
-						<div class="col-lg-4 pull-left">
-							<p>A Developer's Tool for creating dummy test for website testing</p>
+						<div class="col-lg-6 pull-left">
+							<h5>A Developer's Tool for creating dummy text for website testing</h5>
+						</div><!--close the left hand colum-->
+
+						<div class="col-lg-6 pull-left">
+			     	     		<h5>Uses the Joshtronic php-loremipsum Package </h5>
+			     					<a class="btn btn-warning" role="button" href="https://packagist.org/packages/joshtronic/php-loremipsum">Learn More &raquo;</a>
 						</div><!--close the right hand colum-->
+				
 				
 					</div> <!--close column row-->
 
@@ -48,13 +51,13 @@
 								'KittenIpsum' =>'Kitten Lorem'
 								
 							))}}
-					</br>
+					<p>&nbsp;</p>
 
 
 					<!-- get number of paragraphs:-->
 					{{Form::label ('parag', 'Number of paragraphs :')}}	
 					{{Form::text ('parag') }}
-					<h4>Limit of 9 paragraphs of Ipsum at a time</h4>
+					<h4>**Limit of 9 paragraphs of Ipsum at a time</h4>
 					</br>
 
 					{{ Form::submit('Get My Ipsum!', array('class' => 'btn btn-warning'))}}	
@@ -68,7 +71,7 @@
 
 			<!--navivation button-->
 
-			<p><a class="btn btn-warning btn-sm" role="button" href="/main">Return to Main Page &raquo;</a></p>
+			<p><a class="btn btn-warning" role="button" href="/main">Return to Main Page &raquo;</a></p>
 
 		</div><!--close row-->
 	</div><!--jumbotron-->

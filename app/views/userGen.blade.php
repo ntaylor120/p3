@@ -24,17 +24,17 @@
 
 						<!--Buttons -->
 
-						<div class = "col-lg-3" pull-left>
-							<h4>Uses the Faker Package</h4>
-						</div>
-
-						<div class="col-lg-1" pull-left>
-							 <a class="btn btn-warning btn-sm" role="button" href="https://packagist.org/packages/fzaninotto/faker">Learn More</a>
+						<div class = "col-lg-6 pull-left">
+							<h5>A tool for creating test users</h5>
 						</div><!--close column -->
 
-						<div class = "col-lg-6 pull-right">
-							<p>A tool for creating test users</p>
+						<div class = "col-lg-6 pull-left">
+							<h5>Uses the Faker Package</h5>
+						<br/>
+							 <a class="btn btn-warning" role="button" href="https://packagist.org/packages/fzaninotto/faker">Learn More</a>
 						</div><!--close column -->
+
+						
 					
 					</div>  <!--close row -->
 			</div>  <!--close jumbotron row -->
@@ -102,7 +102,7 @@
 
 <!--Navigation button -->
 
-			<p><a class="btn btn-warning btn-sm" role="button" href="/main">Return to Main Page &raquo;</a></p>
+			<p><a class="btn btn-warning" role="button" href="/main">Return to Main Page &raquo;</a></p>
 			</div><!--close jumbotron row -->
 		</div><!--close jumbotron-->
 	</div><!--close container-->

@@ -66,13 +66,13 @@
 
 					<div class= "col-lg-3" pull-left>
 
-						<a class="btn btn-warning btn-lg" role="button" href="/ipsum">Create New Ipsum &raquo;</a>
+						<a class="btn btn-warning" role="button" href="/ipsum">Create New Ipsum &raquo;</a>
 
 					</div> <!--close col> -->
 
 					<div class = "col-lg-3" pull-left>
 
-						<a class="btn btn-warning btn-lg" role="button" href="/main">Back to the Main Page &raquo;</a>
+						<a class="btn btn-warning" role="button" href="/main">Back to the Main Page &raquo;</a>
 
 					</div><!--close col> -->
 

@@ -84,12 +84,12 @@
         <!-- Button 1 -->
 
         <div class= "col-lg-3" pull-left>
-        <p><a class="btn btn-warning btn-lg" role="button" href="/userGen">Create More Test User(s) &raquo;</a></p>
+        <p><a class="btn btn-warning" role="button" href="/userGen">Create More Test User(s) &raquo;</a></p>
         </div> <!--close col> -->
 
          <!-- Button 1 -->
         <div class = "col-lg-3" pull-left>
-        <p><a class="btn btn-warning btn-lg" role="button" href="/main">Back to the Main Page &raquo;</a></p>
+        <p><a class="btn btn-warning" role="button" href="/main">Back to the Main Page &raquo;</a></p>
         </div><!--close col> -->
 
       </div>  <!--close row-->
