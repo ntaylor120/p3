@@ -1,6 +1,4 @@
-<?php
+<!--  this is my sandbox  -->			
 
-	 
-			  $lipsum = new joshtronic\KittenIpsum();
-			 echo $lipsum->paragraphs(5, 'p');
-			  ?>
+
+{{$lipsum}}

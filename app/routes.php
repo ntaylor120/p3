@@ -11,20 +11,29 @@
 |
 */
 
+
+/* / ROUTE */
+
 Route::get('/', function()
 {
 	return View::make('main');
 });
+
+/* MAIN ROUTE */
 
 Route::get('/main', function()
 {
 	return View::make('main');
 });
 
+/* IPSUM CREATE */
+
 Route::get('/ipsum', function()
 {
 	return View::make('ipsum');
 });
+
+/* IPSUM VIEW */
 
 Route::post('viewIpsum', function()
 {
@@ -34,12 +43,14 @@ Route::post('viewIpsum', function()
 		return View::make('viewIpsum')->with('paragNum', $paragNum) ->with('whatIpsum', $whatIpsum);
 });
 
-
+/* ROUTE TO VIEW viewIpsum page w/out going through ipsum generation */
 
 Route::get('/viewIpsum', function()
 {
 	return View::make('viewIpsum');
 });
+
+/* USER CREATE */
 
 Route::get('/userGen', function()
 {
@@ -47,17 +58,15 @@ Route::get('/userGen', function()
 	return View::make('userGen');
 });
 
+/* ROUTE TO VIEW viewUser w/out going through user generation page */
+
 Route::get('/viewUser', function() 
 {
 
 		return View::make('viewUser');
 });
 
-Route::get('/testing', function() 
-{
-
-		return View::make('testing');
-});
+/* USER VIEW */
 
 Route::post('viewUser', function()
 {
@@ -69,7 +78,32 @@ Route::post('viewUser', function()
 });
 
 
+/* testing sandbox */
+
+Route::get('/testing', function() 
+{
+
+		return View::make('testing');
+});
+
+
+
 /*
+
+TESTING ROUTES
+
+Route::post('testing', function()
+{
+			
+			 $lipsum = new joshtronic\KittenIpsum();
+			 $lipsum->paragraphs(5, 'p');
+	 			
+
+		return View::make('testing')->with('lipsum', $lipsum);
+});
+
+
+
 Route::post('viewIpsum', function(){
 
 	$theIpsum = Input::get('parag')
