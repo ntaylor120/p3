@@ -71,8 +71,7 @@
             </div> <!--close container -->
           </div><!--close background div-->
         </div> <!--close row div -->
-      </div> <!--close column div -->  
-
+      
 <!-- Add space between the data and the buttons -->
 </br>
 <p>&nbsp;</p>
